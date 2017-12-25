@@ -1,0 +1,8 @@
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/CMakeFiles/edit_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/CMakeFiles/rebuild_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/CMakeFiles/main.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/SDL2/CMakeFiles/edit_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/SDL2/CMakeFiles/rebuild_cache.dir
+/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/release/armeabi-v7a/SDL2/CMakeFiles/SDL2.dir

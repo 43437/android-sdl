@@ -1,0 +1,583 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/geyu/github/android-sdl_studio/app/src/main/jni/CMakeLists.txt",
+		"/home/geyu/github/android-sdl_studio/app/src/main/jni/src/CMakeLists.txt",
+		"/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/geyu/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"SDL2-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "SDL2",
+			"buildCommand" : "/home/geyu/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target SDL2",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/SDL.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/SDL_assert.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/SDL_error.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/SDL_hints.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/SDL_log.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_audio.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_audiocvt.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_audiodev.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_audiotypecvt.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_mixer.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/SDL_wave.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/android/SDL_androidaudio.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/audio/dummy/SDL_dummyaudio.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/core/android/SDL_android.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/cpuinfo/SDL_cpuinfo.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_clipboardevents.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_dropevents.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_events.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_gesture.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_keyboard.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_mouse.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_quit.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_touch.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/events/SDL_windowevents.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/file/SDL_rwops.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/haptic/SDL_haptic.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/haptic/dummy/SDL_syshaptic.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/joystick/SDL_gamecontroller.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/joystick/SDL_joystick.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/joystick/android/SDL_sysjoystick.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/loadso/dlopen/SDL_sysloadso.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/power/SDL_power.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/power/android/SDL_syspower.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/atomic/SDL_atomic.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/atomic/SDL_spinlock.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/SDL_render.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/SDL_yuv_mmx.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/SDL_yuv_sw.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/opengles/SDL_render_gles.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/opengles2/SDL_render_gles2.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/opengles2/SDL_shaders_gles2.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_blendfillrect.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_blendline.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_blendpoint.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_drawline.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_drawpoint.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_render_sw.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/render/software/SDL_rotate.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_getenv.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_iconv.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_malloc.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_qsort.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_stdlib.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/stdlib/SDL_string.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/SDL_thread.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/pthread/SDL_syscond.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/pthread/SDL_sysmutex.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/pthread/SDL_syssem.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/pthread/SDL_systhread.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/thread/pthread/SDL_systls.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/timer/SDL_timer.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/timer/unix/SDL_systimer.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_RLEaccel.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_0.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_1.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_A.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_N.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_auto.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_copy.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_blit_slow.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_bmp.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_clipboard.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_fillrect.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_pixels.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_rect.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_shape.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_stretch.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_surface.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/SDL_video.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidclipboard.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidevents.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidgl.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidkeyboard.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidtouch.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidvideo.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -DSDL2_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DGL_GLEXT_PROTOTYPES -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/video/android/SDL_androidwindow.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/geyu/github/android-sdl_studio/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libSDL2.so",
+			"toolchain" : "17472127154256078363"
+		},
+		"main-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "main",
+			"buildCommand" : "/home/geyu/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target main",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -Dmain_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/src/../SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/SDL2/src/main/android/SDL_android_main.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/geyu/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/geyu/Android/Sdk/ndk-bundle/sysroot -Dmain_EXPORTS -I/home/geyu/github/android-sdl_studio/app/src/main/jni/src/../SDL2/include  -isystem /home/geyu/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/geyu/github/android-sdl_studio/app/src/main/jni/src/main.c",
+					"workingDirectory" : "/home/geyu/github/android-sdl_studio/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/geyu/github/android-sdl_studio/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so",
+			"toolchain" : "17472127154256078363"
+		}
+	},
+	"toolchains" : 
+	{
+		"17472127154256078363" : 
+		{
+			"cCompilerExecutable" : "/home/geyu/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/geyu/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
